@@ -1,0 +1,63 @@
+# Node.js dependencies
+/node_modules/
+
+# Build output
+/dist/
+/build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# SvelteKit or other front-end build directories (if applicable)
+/.svelte-kit/
+/.build/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Temporary files
+*.swp
+*.swo
+
+# Editor-specific directories/files (e.g., VSCode)
+.vscode/
+.idea/
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript definition files
+*.d.ts
+
+# Next.js (if applicable)
+/.next/
+
+# .env files
+.env.*
+
+# .svelte or other precompiled template outputs
+public/build/
+
+# Docker-related files
+.docker/
+docker-compose.override.yml
+*.docker
+*.tar
+*.gz
+
+# IDE and editor files (e.g., VS Code)
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Windows Installer files
+Thumbs.db
